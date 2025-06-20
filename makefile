@@ -1,11 +1,12 @@
-compila:
-	gcc teste.c -o teste
-	./teste
-uni:
-	www.unipampa.com.br
-neo:
-	fastfetch
-mk:
-	mkdir testefile
-rm:
-	rmdir testefile
+comp:
+	gcc programa.c -o programa
+busca:
+	grep -rl unipampa
+clean:
+	rm *.c
+ola:
+	echo "Olá mundo!"
+	whoami
+criar:
+	mkdir Pasta1
+	touch Arquivo1
